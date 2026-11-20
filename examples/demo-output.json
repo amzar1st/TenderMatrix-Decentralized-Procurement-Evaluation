@@ -1,0 +1,25 @@
+{
+  "mode": "OFFLINE_FIXTURE_NOT_LIVE_CONSENSUS",
+  "ranking": {
+    "award": "HUMAN_CONTROLLED",
+    "eligible": [
+      {
+        "score": 100,
+        "supplier": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    ],
+    "excluded": [
+      {
+        "status": "DISQUALIFIED",
+        "supplier": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      {
+        "status": "INCONCLUSIVE",
+        "supplier": "0xcccccccccccccccccccccccccccccccccccccccc"
+      }
+    ],
+    "rubric_hash": "a42b21d4f13108a7c7b5e29918b5ec671ae738996aa38756c21496e6a8fca327",
+    "tender_id": "1",
+    "tie_break": "supplier address ascending"
+  }
+}

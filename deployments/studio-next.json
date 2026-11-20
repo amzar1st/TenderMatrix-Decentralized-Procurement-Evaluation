@@ -1,0 +1,23 @@
+{
+  "network": "studio-next / studio-dev",
+  "chain_id": 61997,
+  "ui": "https://studio-next.genlayer.com/run-debug",
+  "explorer": "https://explorer-studio-next.genlayer.com/address/0xcB4f2fb3F0368D8F291d3F9897048e932Cfd6c7B",
+  "contract_address": "0xcB4f2fb3F0368D8F291d3F9897048e932Cfd6c7B",
+  "deployer": "0x6a396e113A1fDFDde23e6908550A48D0B3FcbeB0",
+  "wallet": "Studio built-in account; no external wallet connection",
+  "execution_mode": "Normal (Full Consensus)",
+  "simulation": false,
+  "constructor_args": [],
+  "source_file": "contracts/tender_matrix.py",
+  "studio_filename": "tender_matrix_v1.py",
+  "source_sha256": "b4c909fd76fa30e3f46590b1da6113ec8ed4ea44c724ce031c3b3527f4f3500b",
+  "deployment_transaction": "0xcbc065d8a2c68a6b30d69fd76ebf69ee74046b55698cb222fdee19adb21fd94a",
+  "deployment_status_observed": "FINALIZED",
+  "deployed_date_utc": "2026-11-20",
+  "smoke_tender_id": "1",
+  "smoke_transactions": {
+    "create_tender": "0x6e4c16aac8b4b1839a52a0b0742e655227af31d1b2721f567f8b1dad295e0a6e",
+    "commit_bid": "0x2c696cb401ee0914af1e5aa79ae5f886957cb38f37d7f5346d75af0b1fa39c82"
+  }
+}

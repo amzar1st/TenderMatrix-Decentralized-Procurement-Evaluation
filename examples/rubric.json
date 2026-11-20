@@ -1,0 +1,10 @@
+{
+  "criteria": [
+    {"id":"uptime","requirement":"The offered cloud service contract guarantees at least 99.9% uptime per month.","mandatory":true,"weight":30,"basis":"proposal"},
+    {"id":"backups","requirement":"The offered service includes backups at least every 24 hours.","mandatory":true,"weight":20,"basis":"proposal"},
+    {"id":"security","requirement":"The offered service commits to AES-256 encryption at rest and TLS 1.2 or newer in transit.","mandatory":true,"weight":20,"basis":"proposal"},
+    {"id":"support","requirement":"The offered service includes human technical support 24 hours per day, seven days per week.","mandatory":false,"weight":10,"basis":"proposal"},
+    {"id":"budget","requirement":"The total offered recurring monthly cost for the requested service, including all mandatory charges, is no more than 500 USD.","mandatory":true,"weight":20,"basis":"proposal"}
+  ],
+  "sources": []
+}
