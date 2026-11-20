@@ -18,6 +18,24 @@
   "smoke_tender_id": "1",
   "smoke_transactions": {
     "create_tender": "0x6e4c16aac8b4b1839a52a0b0742e655227af31d1b2721f567f8b1dad295e0a6e",
-    "commit_bid": "0x2c696cb401ee0914af1e5aa79ae5f886957cb38f37d7f5346d75af0b1fa39c82"
-  }
+    "commit_bid": "0x2c696cb401ee0914af1e5aa79ae5f886957cb38f37d7f5346d75af0b1fa39c82",
+    "reveal_bid": "0xf9e04acc6f4fdf0f98e3bf922d157931eebd796dbc21a9f90eb058b9605c61ae",
+    "evaluate_bid": "0x198011ec41851ae14c6c187d7df5dd549e9ebd853f1f13455a2c42cce862674e",
+    "finalize_evaluation": "0x71e2cabff1626fcd955dd0afc16bcebf062a39e3d2fee98948e9aee5230e4231"
+  },
+  "smoke_result": {
+    "status": "QUALIFIED",
+    "score": 100,
+    "criterion_results": [
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS"
+    ],
+    "scope": "One live fictional supplier; proposal-basis criteria; external evidence tested locally"
+  },
+  "smoke_finalization_status_observed": "FINALIZED",
+  "ranking_read_state": "FINALIZED",
+  "verified_at_utc": "2026-11-20T09:47:58.930595+00:00"
 }

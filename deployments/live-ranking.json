@@ -1,0 +1,17 @@
+{
+  "read_state": "FINALIZED",
+  "network_chain_id": 61997,
+  "result": {
+    "award": "HUMAN_CONTROLLED",
+    "eligible": [
+      {
+        "score": 100,
+        "supplier": "0x6a396e113a1fdfdde23e6908550a48d0b3fcbeb0"
+      }
+    ],
+    "excluded": [],
+    "rubric_hash": "a42b21d4f13108a7c7b5e29918b5ec671ae738996aa38756c21496e6a8fca327",
+    "tender_id": "1",
+    "tie_break": "supplier address ascending"
+  }
+}
